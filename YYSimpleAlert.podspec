@@ -28,10 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/miiiiiin/YYSimpleAlert.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'YYSimpleAlert/Classes/**/*'
-  
+  s.source_files = 'YYSimpleAlert/Classes/**/*'
+  s.resources = 'YYSimpleAlert/Assets/**/*'
+  s.frameworks = 'UIKit'
+ 
   # s.resource_bundles = {
   #   'YYSimpleAlert' => ['YYSimpleAlert/Assets/*.png']
   # }

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YYSimpleAlert
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func showAlert(_ sender: UIButton) {
+        YYSimpleAlert(title: "Simple Alert Check", confirm: "Yes") {
+            print("So Simple Alert")
+        }.show(in: view)
+    }
 }
 

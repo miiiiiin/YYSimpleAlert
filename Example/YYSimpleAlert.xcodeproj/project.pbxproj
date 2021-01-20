@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		002873E8C351DD0188B01303 /* Pods_YYSimpleAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYSimpleAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F39ECD01F729C8EF3C29525 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3F39ECD01F729C8EF3C29525 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YYSimpleAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYSimpleAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,12 +40,12 @@
 		607FACE51AFB9204008FA782 /* YYSimpleAlert_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYSimpleAlert_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E86D650C46C99606A0235E5 /* YYSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YYSimpleAlert.podspec; path = ../YYSimpleAlert.podspec; sourceTree = "<group>"; };
+		6E86D650C46C99606A0235E5 /* YYSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYSimpleAlert.podspec; path = ../YYSimpleAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7CF5250D42D9322DA020E023 /* Pods_YYSimpleAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYSimpleAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE6C51D40B13AD30B22D4B3 /* Pods-YYSimpleAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYSimpleAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-YYSimpleAlert_Example/Pods-YYSimpleAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		982E7150BCF22C0D083DB4B7 /* Pods-YYSimpleAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYSimpleAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YYSimpleAlert_Tests/Pods-YYSimpleAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA9CB5C7EE2E4F047F5EA96B /* Pods-YYSimpleAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYSimpleAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYSimpleAlert_Tests/Pods-YYSimpleAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DF3BC9FE22C615254D08530C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DF3BC9FE22C615254D08530C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E84C37D5DBA6051A057C6BCA /* Pods-YYSimpleAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYSimpleAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-YYSimpleAlert_Example/Pods-YYSimpleAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				982E7150BCF22C0D083DB4B7 /* Pods-YYSimpleAlert_Tests.debug.xcconfig */,
 				AA9CB5C7EE2E4F047F5EA96B /* Pods-YYSimpleAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JH6HFBQXT6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JH6HFBQXT6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -440,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -486,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -499,6 +501,7 @@
 			baseConfigurationReference = E84C37D5DBA6051A057C6BCA /* Pods-YYSimpleAlert_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				INFOPLIST_FILE = YYSimpleAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -514,6 +517,7 @@
 			baseConfigurationReference = 7EE6C51D40B13AD30B22D4B3 /* Pods-YYSimpleAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				INFOPLIST_FILE = YYSimpleAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -528,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 982E7150BCF22C0D083DB4B7 /* Pods-YYSimpleAlert_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -550,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA9CB5C7EE2E4F047F5EA96B /* Pods-YYSimpleAlert_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JH6HFBQXT6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
