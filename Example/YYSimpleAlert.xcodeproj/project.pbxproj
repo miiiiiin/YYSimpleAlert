@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7D24C01025BAC3DA00B1C37D /* SimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D24C00F25BAC3DA00B1C37D /* SimpleCell.swift */; };
 		F2ABA5EEE723498EF7834B5F /* Pods_YYSimpleAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002873E8C351DD0188B01303 /* Pods_YYSimpleAlert_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E86D650C46C99606A0235E5 /* YYSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYSimpleAlert.podspec; path = ../YYSimpleAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7CF5250D42D9322DA020E023 /* Pods_YYSimpleAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYSimpleAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D24C00F25BAC3DA00B1C37D /* SimpleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCell.swift; sourceTree = "<group>"; };
 		7EE6C51D40B13AD30B22D4B3 /* Pods-YYSimpleAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYSimpleAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-YYSimpleAlert_Example/Pods-YYSimpleAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		982E7150BCF22C0D083DB4B7 /* Pods-YYSimpleAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYSimpleAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YYSimpleAlert_Tests/Pods-YYSimpleAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA9CB5C7EE2E4F047F5EA96B /* Pods-YYSimpleAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYSimpleAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYSimpleAlert_Tests/Pods-YYSimpleAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				7D24C00F25BAC3DA00B1C37D /* SimpleCell.swift */,
 			);
 			name = "Example for YYSimpleAlert";
 			path = YYSimpleAlert;
@@ -356,6 +359,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				7D24C01025BAC3DA00B1C37D /* SimpleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
