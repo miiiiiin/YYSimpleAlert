@@ -1,7 +1,25 @@
 PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.1.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher (~> 1.4)
+  - GTMSessionFetcher (1.5.0):
+    - GTMSessionFetcher/Full (= 1.5.0)
+  - GTMSessionFetcher/Core (1.5.0)
+  - GTMSessionFetcher/Full (1.5.0):
+    - GTMSessionFetcher/Core (= 1.5.0)
   - Nimble (8.0.9)
   - Quick (2.2.1)
-  - YYSimpleAlert (0.1.0)
+  - YYSimpleAlert (0.0.1):
+    - GoogleSignIn
 
 DEPENDENCIES:
   - Nimble (~> 8.0.7)
@@ -10,6 +28,10 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AppAuth
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
     - Nimble
     - Quick
 
@@ -18,10 +40,14 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 197a8dabfea5d665224aa00d17f164fc2248dab9
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
   Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
-  YYSimpleAlert: a90d89244721050e77ab905dd6e6af7a69fcd33e
+  YYSimpleAlert: e9ae869455e805ffe85b6640ec53da2823a6742e
 
-PODFILE CHECKSUM: d5ebb0840ea2e013adfb0ce59bdb5651ec9d0859
+PODFILE CHECKSUM: abcae08e211cb1e83f176cb37521afbfc88b3cb6
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.1

@@ -8,18 +8,18 @@
 
 import UIKit
 import YYSimpleAlert
+import GoogleSignIn
 
 class ViewController: YYSimpleViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         print("items check: \(items)")
         var item = ViewItem(name: "YYSimple")
         item.detailText = "The MIT License (MIT) ...Very long text..."
-//        simpleVC.items.append(item)
-//        simpleVC.items.sort { $0.name < $1.name }
+        
+        GIDSignIn.sharedInstance()?.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +35,12 @@ class ViewController: YYSimpleViewController {
             self.navigationController?.pushViewController(controller, animated: true)
         }.show(in: view)
     }
+}
+
+extension ViewController: GIDSignInDelegate {
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        
+    }    
 }
 
 extension ViewController {

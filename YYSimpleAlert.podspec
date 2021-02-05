@@ -33,6 +33,16 @@ TODO: Add long description of the pod here.
   s.source_files = 'YYSimpleAlert/Classes/**/*'
   #s.resources = 'YYSimpleAlert/Assets/**/*'
   s.frameworks = 'UIKit'
+
+  s.static_framework = true
+ # s.subspec 'Google' do |google|
+      #google.source_files = 'Socially/Classes/Google/*', 'Socially/Classes/SociallyAuth/*'
+   #   google.dependency 'GoogleSignIn'
+  #end
+ # s.subspec 'Facebook' do |facebook|
+      #facebook.source_files = 'Socially/Classes/Facebook/*', 'Socially/Classes/SociallyAuth/*'
+   #   facebook.dependency 'FBSDKLoginKit'
+  #end
  
   # s.resource_bundles = {
   #   'YYSimpleAlert' => ['YYSimpleAlert/Assets/*.png']
@@ -40,5 +50,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'GoogleSignIn'
 end
+
